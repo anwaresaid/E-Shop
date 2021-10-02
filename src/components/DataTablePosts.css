@@ -1,0 +1,110 @@
+.datatable-posts .p-paginator .p-paginator-current {
+  margin-left: auto;
+}
+
+.table-img {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.datatable-posts .p-progressbar {
+  height: 0.5rem;
+  background-color: #d8dadc;
+}
+
+.datatable-posts .p-progressbar .p-progressbar-value {
+  background-color: #607d8b;
+}
+
+.datatable-posts .table-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datatable-posts .p-datepicker {
+  min-width: 25rem;
+}
+
+.datatable-posts .p-datepicker td {
+  font-weight: 400;
+}
+
+.datatable-posts .p-datatable.p-datatable-posts .p-datatable-header {
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.datatable-posts .p-datatable.p-datatable-posts .p-paginator {
+  padding: 1rem;
+}
+
+.datatable-posts .p-datatable.p-datatable-posts .p-datatable-thead > tr > th {
+  text-align: left;
+}
+
+.datatable-posts .p-datatable.p-datatable-posts .p-datatable-tbody > tr > td {
+  cursor: auto;
+}
+
+.datatable-posts
+  .p-datatable.p-datatable-posts
+  .p-dropdown-label:not(.p-placeholder) {
+  text-transform: uppercase;
+}
+
+.datatable-posts
+  .p-datatable-posts
+  .p-datatable-tbody
+  > tr
+  > td
+  .p-column-title {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .datatable-posts .p-datatable.p-datatable-posts .p-datatable-thead > tr > th,
+  .datatable-posts .p-datatable.p-datatable-posts .p-datatable-tfoot > tr > td {
+    display: none !important;
+  }
+  .table-img {
+    width: 100;
+    height: 100;
+  }
+
+  .datatable-posts .p-datatable.p-datatable-posts .p-datatable-tbody > tr {
+    border-bottom: 1px solid var(--layer-2);
+  }
+
+  .datatable-posts .p-datatable.p-datatable-posts .p-datatable-tbody > tr > td {
+    text-align: left;
+    display: block;
+    border: 0 none !important;
+    width: 100% !important;
+    float: left;
+    clear: left;
+    border: 0 none;
+  }
+
+  .datatable-posts
+    .p-datatable.p-datatable-posts
+    .p-datatable-tbody
+    > tr
+    > td
+    .p-column-title {
+    padding: 0.4rem;
+    min-width: 30%;
+    display: inline-block;
+    margin: -0.4rem 1rem -0.4rem -0.4rem;
+    font-weight: bold;
+  }
+
+  .datatable-posts
+    .p-datatable.p-datatable-posts
+    .p-datatable-tbody
+    > tr
+    > td
+    .p-progressbar {
+    margin-top: 0.5rem;
+  }
+}
